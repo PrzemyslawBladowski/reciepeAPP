@@ -1,5 +1,5 @@
 :root {
-    --primary-color: #925f5f;
+    --primary-color: #d41b1b;
     --secondary-color: #333;
     --bg-color: #f4f7f6;
     --card-bg: #ffffff;
@@ -81,7 +81,7 @@ button {
 }
 
 button:hover {
-    background-color: #ff5252;
+    background-color: #5f0606;
     transform: scale(1.05);
 }
 
@@ -194,3 +194,7 @@ footer {
         height: 180px;
     }
 }
+
+/* touch: trigger watcher */
+/* test update 1 */
+/* test update 2 */

@@ -1,3 +1,10 @@
 node_modules/
-package-lock.json
+/.vscode/
+.env
+dist/
+*.log
+*.map
+Thumbs.db
 .DS_Store
+npm-debug.log*
+package-lock.json
