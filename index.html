@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Szybkie Przepisy</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🍳</text></svg>">
+</head>
+
+<body>
+
+    <header>
+        <div class="container">
+            <h1>🍳 Kulinarna Inspiracja</h1>
+            <p>Wpisz nazwę składnika lub dania (po angielsku, np. <i>chicken, pasta, cake</i>)</p>
+
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="Czego szukasz?">
+                <button id="searchBtn">Szukaj</button>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <div id="recipeContainer" class="recipe-grid">
+            <div class="placeholder-text">Wpisz coś powyżej, aby znaleźć pyszne przepisy!</div>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Proste Przepisy API
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
